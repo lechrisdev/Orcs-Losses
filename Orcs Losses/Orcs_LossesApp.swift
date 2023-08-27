@@ -11,7 +11,11 @@ import SwiftUI
 struct Orcs_LossesApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            EmptyView()
+                .onAppear {
+                    let router = Router()
+                    router.configureNavigationController()
+                }
         }
     }
 }

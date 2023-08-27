@@ -8,17 +8,60 @@
 
 /* Begin PBXBuildFile section */
 		852A7C452A9B39CD00F1E3C9 /* Orcs_LossesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852A7C442A9B39CD00F1E3C9 /* Orcs_LossesApp.swift */; };
-		852A7C472A9B39CD00F1E3C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852A7C462A9B39CD00F1E3C9 /* ContentView.swift */; };
+		852A7C472A9B39CD00F1E3C9 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852A7C462A9B39CD00F1E3C9 /* MainView.swift */; };
 		852A7C492A9B39D000F1E3C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 852A7C482A9B39D000F1E3C9 /* Assets.xcassets */; };
 		852A7C4C2A9B39D000F1E3C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 852A7C4B2A9B39D000F1E3C9 /* Preview Assets.xcassets */; };
+		852A7C532A9B3A7200F1E3C9 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852A7C522A9B3A7200F1E3C9 /* Router.swift */; };
+		852A7C562A9B3B6800F1E3C9 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852A7C552A9B3B6800F1E3C9 /* API.swift */; };
+		852A7C592A9B432400F1E3C9 /* LossesEquipmentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852A7C582A9B432400F1E3C9 /* LossesEquipmentData.swift */; };
+		852A7C5B2A9B444900F1E3C9 /* CorrectionEquipmentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852A7C5A2A9B444800F1E3C9 /* CorrectionEquipmentData.swift */; };
+		852A7C5D2A9B44AD00F1E3C9 /* EquipmentOryxData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852A7C5C2A9B44AD00F1E3C9 /* EquipmentOryxData.swift */; };
+		852A7C5F2A9B452B00F1E3C9 /* LossesPersonnelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852A7C5E2A9B452B00F1E3C9 /* LossesPersonnelData.swift */; };
+		852A7C622A9B4D0E00F1E3C9 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852A7C612A9B4D0E00F1E3C9 /* MainViewModel.swift */; };
+		852A7C652A9B682200F1E3C9 /* LossesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852A7C642A9B682200F1E3C9 /* LossesView.swift */; };
+		852A7C682A9B6DDA00F1E3C9 /* LossesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852A7C672A9B6DDA00F1E3C9 /* LossesModel.swift */; };
+		852A7C6A2A9B76B400F1E3C9 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852A7C692A9B76B300F1E3C9 /* Repository.swift */; };
+		852A7C702A9B98A100F1E3C9 /* russia_losses_equipment_oryx.json in Resources */ = {isa = PBXBuildFile; fileRef = 852A7C6C2A9B98A100F1E3C9 /* russia_losses_equipment_oryx.json */; };
+		852A7C712A9B98A100F1E3C9 /* russia_losses_equipment_correction.json in Resources */ = {isa = PBXBuildFile; fileRef = 852A7C6D2A9B98A100F1E3C9 /* russia_losses_equipment_correction.json */; };
+		852A7C722A9B98A100F1E3C9 /* russia_losses_equipment.json in Resources */ = {isa = PBXBuildFile; fileRef = 852A7C6E2A9B98A100F1E3C9 /* russia_losses_equipment.json */; };
+		852A7C732A9B98A100F1E3C9 /* russia_losses_personnel.json in Resources */ = {isa = PBXBuildFile; fileRef = 852A7C6F2A9B98A100F1E3C9 /* russia_losses_personnel.json */; };
+		852A7C762A9BABFE00F1E3C9 /* LossesDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852A7C752A9BABFE00F1E3C9 /* LossesDetailsView.swift */; };
+		852A7C782A9BAC3C00F1E3C9 /* LossesDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852A7C772A9BAC3C00F1E3C9 /* LossesDetailsViewModel.swift */; };
+		852A7C7A2A9BC44800F1E3C9 /* LossesDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852A7C792A9BC44800F1E3C9 /* LossesDetailModel.swift */; };
+		852A7C7D2A9BD08E00F1E3C9 /* FireSparks.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 852A7C7C2A9BD08D00F1E3C9 /* FireSparks.mp4 */; };
+		852A7C7F2A9BD0BC00F1E3C9 /* FullscreenVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852A7C7E2A9BD0BB00F1E3C9 /* FullscreenVideoPlayer.swift */; };
+		852A7C812A9BD0E100F1E3C9 /* BackgroundFire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852A7C802A9BD0E100F1E3C9 /* BackgroundFire.swift */; };
+		852A7C862A9BD74A00F1E3C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 852A7C852A9BD74A00F1E3C9 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		852A7C412A9B39CD00F1E3C9 /* Orcs Losses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Orcs Losses.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		852A7C442A9B39CD00F1E3C9 /* Orcs_LossesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orcs_LossesApp.swift; sourceTree = "<group>"; };
-		852A7C462A9B39CD00F1E3C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		852A7C462A9B39CD00F1E3C9 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		852A7C482A9B39D000F1E3C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		852A7C4B2A9B39D000F1E3C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		852A7C522A9B3A7200F1E3C9 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		852A7C552A9B3B6800F1E3C9 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		852A7C582A9B432400F1E3C9 /* LossesEquipmentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LossesEquipmentData.swift; sourceTree = "<group>"; };
+		852A7C5A2A9B444800F1E3C9 /* CorrectionEquipmentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorrectionEquipmentData.swift; sourceTree = "<group>"; };
+		852A7C5C2A9B44AD00F1E3C9 /* EquipmentOryxData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentOryxData.swift; sourceTree = "<group>"; };
+		852A7C5E2A9B452B00F1E3C9 /* LossesPersonnelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LossesPersonnelData.swift; sourceTree = "<group>"; };
+		852A7C612A9B4D0E00F1E3C9 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		852A7C642A9B682200F1E3C9 /* LossesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LossesView.swift; sourceTree = "<group>"; };
+		852A7C672A9B6DDA00F1E3C9 /* LossesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LossesModel.swift; sourceTree = "<group>"; };
+		852A7C692A9B76B300F1E3C9 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		852A7C6C2A9B98A100F1E3C9 /* russia_losses_equipment_oryx.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = russia_losses_equipment_oryx.json; sourceTree = "<group>"; };
+		852A7C6D2A9B98A100F1E3C9 /* russia_losses_equipment_correction.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = russia_losses_equipment_correction.json; sourceTree = "<group>"; };
+		852A7C6E2A9B98A100F1E3C9 /* russia_losses_equipment.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = russia_losses_equipment.json; sourceTree = "<group>"; };
+		852A7C6F2A9B98A100F1E3C9 /* russia_losses_personnel.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = russia_losses_personnel.json; sourceTree = "<group>"; };
+		852A7C752A9BABFE00F1E3C9 /* LossesDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LossesDetailsView.swift; sourceTree = "<group>"; };
+		852A7C772A9BAC3C00F1E3C9 /* LossesDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LossesDetailsViewModel.swift; sourceTree = "<group>"; };
+		852A7C792A9BC44800F1E3C9 /* LossesDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LossesDetailModel.swift; sourceTree = "<group>"; };
+		852A7C7C2A9BD08D00F1E3C9 /* FireSparks.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = FireSparks.mp4; sourceTree = SOURCE_ROOT; };
+		852A7C7E2A9BD0BB00F1E3C9 /* FullscreenVideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullscreenVideoPlayer.swift; sourceTree = "<group>"; };
+		852A7C802A9BD0E100F1E3C9 /* BackgroundFire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundFire.swift; sourceTree = "<group>"; };
+		852A7C822A9BD36200F1E3C9 /* Orcs-Losses-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Orcs-Losses-Info.plist"; sourceTree = SOURCE_ROOT; };
+		852A7C852A9BD74A00F1E3C9 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +94,18 @@
 		852A7C432A9B39CD00F1E3C9 /* Orcs Losses */ = {
 			isa = PBXGroup;
 			children = (
+				852A7C822A9BD36200F1E3C9 /* Orcs-Losses-Info.plist */,
+				852A7C7B2A9BCF7B00F1E3C9 /* Background */,
 				852A7C442A9B39CD00F1E3C9 /* Orcs_LossesApp.swift */,
-				852A7C462A9B39CD00F1E3C9 /* ContentView.swift */,
+				852A7C522A9B3A7200F1E3C9 /* Router.swift */,
+				852A7C6B2A9B983500F1E3C9 /* JSONS */,
+				852A7C542A9B3B1900F1E3C9 /* Network */,
+				852A7C572A9B3E1200F1E3C9 /* Models */,
+				852A7C602A9B4C8700F1E3C9 /* MainView */,
+				852A7C742A9BABAD00F1E3C9 /* LossesDetailsView */,
 				852A7C482A9B39D000F1E3C9 /* Assets.xcassets */,
 				852A7C4A2A9B39D000F1E3C9 /* Preview Content */,
+				852A7C852A9BD74A00F1E3C9 /* LaunchScreen.storyboard */,
 			);
 			path = "Orcs Losses";
 			sourceTree = "<group>";
@@ -65,6 +116,68 @@
 				852A7C4B2A9B39D000F1E3C9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		852A7C542A9B3B1900F1E3C9 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				852A7C552A9B3B6800F1E3C9 /* API.swift */,
+				852A7C692A9B76B300F1E3C9 /* Repository.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		852A7C572A9B3E1200F1E3C9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				852A7C582A9B432400F1E3C9 /* LossesEquipmentData.swift */,
+				852A7C5A2A9B444800F1E3C9 /* CorrectionEquipmentData.swift */,
+				852A7C5C2A9B44AD00F1E3C9 /* EquipmentOryxData.swift */,
+				852A7C5E2A9B452B00F1E3C9 /* LossesPersonnelData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		852A7C602A9B4C8700F1E3C9 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				852A7C672A9B6DDA00F1E3C9 /* LossesModel.swift */,
+				852A7C462A9B39CD00F1E3C9 /* MainView.swift */,
+				852A7C612A9B4D0E00F1E3C9 /* MainViewModel.swift */,
+				852A7C642A9B682200F1E3C9 /* LossesView.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		852A7C6B2A9B983500F1E3C9 /* JSONS */ = {
+			isa = PBXGroup;
+			children = (
+				852A7C6D2A9B98A100F1E3C9 /* russia_losses_equipment_correction.json */,
+				852A7C6C2A9B98A100F1E3C9 /* russia_losses_equipment_oryx.json */,
+				852A7C6E2A9B98A100F1E3C9 /* russia_losses_equipment.json */,
+				852A7C6F2A9B98A100F1E3C9 /* russia_losses_personnel.json */,
+			);
+			path = JSONS;
+			sourceTree = "<group>";
+		};
+		852A7C742A9BABAD00F1E3C9 /* LossesDetailsView */ = {
+			isa = PBXGroup;
+			children = (
+				852A7C752A9BABFE00F1E3C9 /* LossesDetailsView.swift */,
+				852A7C772A9BAC3C00F1E3C9 /* LossesDetailsViewModel.swift */,
+				852A7C792A9BC44800F1E3C9 /* LossesDetailModel.swift */,
+			);
+			path = LossesDetailsView;
+			sourceTree = "<group>";
+		};
+		852A7C7B2A9BCF7B00F1E3C9 /* Background */ = {
+			isa = PBXGroup;
+			children = (
+				852A7C7C2A9BD08D00F1E3C9 /* FireSparks.mp4 */,
+				852A7C7E2A9BD0BB00F1E3C9 /* FullscreenVideoPlayer.swift */,
+				852A7C802A9BD0E100F1E3C9 /* BackgroundFire.swift */,
+			);
+			path = Background;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +238,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				852A7C732A9B98A100F1E3C9 /* russia_losses_personnel.json in Resources */,
+				852A7C862A9BD74A00F1E3C9 /* LaunchScreen.storyboard in Resources */,
+				852A7C7D2A9BD08E00F1E3C9 /* FireSparks.mp4 in Resources */,
+				852A7C712A9B98A100F1E3C9 /* russia_losses_equipment_correction.json in Resources */,
+				852A7C722A9B98A100F1E3C9 /* russia_losses_equipment.json in Resources */,
+				852A7C702A9B98A100F1E3C9 /* russia_losses_equipment_oryx.json in Resources */,
 				852A7C4C2A9B39D000F1E3C9 /* Preview Assets.xcassets in Resources */,
 				852A7C492A9B39D000F1E3C9 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +256,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				852A7C472A9B39CD00F1E3C9 /* ContentView.swift in Sources */,
+				852A7C472A9B39CD00F1E3C9 /* MainView.swift in Sources */,
+				852A7C532A9B3A7200F1E3C9 /* Router.swift in Sources */,
+				852A7C5D2A9B44AD00F1E3C9 /* EquipmentOryxData.swift in Sources */,
+				852A7C562A9B3B6800F1E3C9 /* API.swift in Sources */,
 				852A7C452A9B39CD00F1E3C9 /* Orcs_LossesApp.swift in Sources */,
+				852A7C652A9B682200F1E3C9 /* LossesView.swift in Sources */,
+				852A7C782A9BAC3C00F1E3C9 /* LossesDetailsViewModel.swift in Sources */,
+				852A7C762A9BABFE00F1E3C9 /* LossesDetailsView.swift in Sources */,
+				852A7C812A9BD0E100F1E3C9 /* BackgroundFire.swift in Sources */,
+				852A7C5F2A9B452B00F1E3C9 /* LossesPersonnelData.swift in Sources */,
+				852A7C5B2A9B444900F1E3C9 /* CorrectionEquipmentData.swift in Sources */,
+				852A7C682A9B6DDA00F1E3C9 /* LossesModel.swift in Sources */,
+				852A7C592A9B432400F1E3C9 /* LossesEquipmentData.swift in Sources */,
+				852A7C622A9B4D0E00F1E3C9 /* MainViewModel.swift in Sources */,
+				852A7C7F2A9BD0BC00F1E3C9 /* FullscreenVideoPlayer.swift in Sources */,
+				852A7C6A2A9B76B400F1E3C9 /* Repository.swift in Sources */,
+				852A7C7A2A9BC44800F1E3C9 /* LossesDetailModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,11 +404,14 @@
 				DEVELOPMENT_TEAM = NWJQXY2934;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Orcs-Losses-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -282,9 +419,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ChristinaStepanok.Orcs-Losses";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -299,11 +439,14 @@
 				DEVELOPMENT_TEAM = NWJQXY2934;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Orcs-Losses-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,9 +454,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ChristinaStepanok.Orcs-Losses";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
