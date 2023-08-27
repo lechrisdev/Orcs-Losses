@@ -11,8 +11,9 @@ class MainViewModel: ObservableObject {
     
     var losses: [LossesModel] = []
     var index: Int = 0
-    let repo: Repository
     let router: Router
+    private let repo: Repository
+    private let impactFeedbackgenerator = UIImpactFeedbackGenerator(style: .light)
     
     @Published var currentLosses: LossesModel?
     
@@ -53,6 +54,7 @@ class MainViewModel: ObservableObject {
     }
     
     func moveTo(_ move: Move) {
+        haptic()
         switch move {
         case .forward:
             if index < losses.count - 1 {
@@ -69,6 +71,11 @@ class MainViewModel: ObservableObject {
                 }
             }
         }
+    }
+    
+    func haptic() {
+        impactFeedbackgenerator.prepare()
+        impactFeedbackgenerator.impactOccurred()
     }
     
     func isButtonActive(_ move: Move) -> Bool {

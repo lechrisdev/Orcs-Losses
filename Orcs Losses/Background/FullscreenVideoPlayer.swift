@@ -18,7 +18,6 @@ struct FullscreenVideoPlayer: View {
     
     var body: some View {
         VideoPlayer(player: player)
-//        .edgesIgnoringSafeArea(.all)
         .onAppear {
             player.play()
             NotificationCenter.default.addObserver(forName: .AVPlayerItemDidPlayToEndTime, object: nil, queue: .main) { _ in

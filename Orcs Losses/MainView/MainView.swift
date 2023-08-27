@@ -39,7 +39,7 @@ struct MainView: View {
                     if let currentLosses = viewModel.currentLosses {
                         LossesView(losses: currentLosses,
                                    rowTapped: { row in
-                            print(row)
+                            viewModel.haptic()
                             viewModel.router.navigateToLossesDetailsView(type: row)
                         })
                     }
